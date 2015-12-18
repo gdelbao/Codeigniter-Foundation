@@ -1,0 +1,25 @@
+{
+  "name": "ERP",
+  "version": "0.0.1",
+  "description": "ERP em PHP (CI) com Google Material Design Lite",
+  "main": "index.php",
+  "keywords": [
+    "erp",
+    "php"
+  ],
+  "authors": [
+    "Gabriel Delbão de Oliveira"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/gdelbao",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation-sites": "~6.0.6"
+  }
+}
