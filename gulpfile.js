@@ -11,7 +11,7 @@ var paths = {
 gulp.task('styles', function() {
     gulp.src([paths.assets+'/styles/app.scss' ])
     .pipe(sass({includePaths:[paths.bower+'/foundation-sites/scss']}))
-    .pipe(concat('app.css'))
+    //.pipe(concat('app.css'))
     .pipe(gulp.dest('./_css'));
 });
 //End of Styles (CSS) Tasks
